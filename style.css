@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(202, 199, 199);
+    height: 100vh;
+    font-family: monospace, sans-serif;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+}
+#container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.486);
+    width: 500px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#display{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#controls{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+} 
+#start{
+    background-color: rgba(5, 132, 5, 0.842);
+}
+#start:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(5, 132, 5);
+}
+#stop{
+    background-color: rgba(227, 4, 4, 0.874);
+}
+#stop:hover{
+    color:  hsl(0, 0%, 100%);
+    background-color: rgb(227, 4, 4);
+}
+#reset{
+    background-color: rgba(223, 223, 10, 0.842);
+}
+#reset:hover{
+    color:  hsl(0, 0%, 100%);
+    background-color: rgb(223, 223, 10);
+}
